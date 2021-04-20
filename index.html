@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Assignment 4 Using Bootstrap">
+	<title>Assignment 4 Alvin Pang</title>
+
+	<!--Bootstrap Link-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body class="mw-100">
+	<header class="sticky-top">
+		<nav class="navbar navbar-expand-xl navbar-light bg-light">
+			<div class="container">
+				<h1>Directions</h1>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbar">
+					<ul class="navbar-nav me-auto mb-2">
+						<li class="nav-item d-xl-flex ">
+							<a class="nav-link" href="index.html">Home</a>
+							<a class="nav-link" href="#about">About</a>
+							<a class="nav-link" href="#team">Team</a>
+							<a class="nav-link" href="#services">Services</a>
+							<a class="nav-link" href="#price">Pricing</a>
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div id="carouselPictures" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="img/space.jpg" alt="First slide">
+					<div class="carousel-caption d-none d-block">
+						<h3>Why to choose Directions?</h3>
+						<p>It is about uniqueness and precision and making your brand memorable and enticing to your
+							client.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img/mountains.jpg" alt="Second slide">
+					<div class="carousel-caption d-none d-block">
+						<h3>Created to make business easy</h3>
+						<button type="button" class="btn btn-light">Contact Us</button>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img/water-bg.jpg" alt="Third slide">
+					<div class="carousel-caption d-none d-block">
+						<h5>The best choice for your startup</h5>
+						<p>Design and style should work toward making you look good and feel good</p>
+						<button type="button" class="btn btn-light">Choose Package</button>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselPictures" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			</a>
+			<a class="carousel-control-next" href="#carouselPictures" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			</a>
+		</div>
+		<div class="text-center py-5 h2" id="about">
+			<a class="text-success" href="#">ABOUT US</a>
+		</div>
+		<p class="text-center h5 px-3">Collaboratively administrate empowered markets via plug-and-play networks.
+			Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed
+			convergence without revolutionary ROI.</p>
+		<div class="d-md-flex flex-row pt-md-3">
+			<img src="img/how-we-got-started-1920.jpg" alt="How we got started"
+				class="w-100 py-5 px-3 img-responsive col-md-8">
+			<div class="container col-md-4">
+				<h3>How We Got Started</h3>
+				<p class="pb-2 h6">Completely synergize resource taxing relationships via premier niche markets.
+					Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate
+					resource-leveling customer service for state-of-the-art customer service.</p>
+				<p class="pb-2 h6">Proactively envisioned multimedia-based expertise and cross-media growth strategies.
+					Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.
+				</p>
+				<button type="button" class="btn btn-success mb-5">Meet the Team</button>
+			</div>
+		</div>
+
+		<div class="bg-light pb-5  pt-5" id="team">
+			<div class="text-center h3 mb-3">
+				<a href="#" class="text-success">TEAM</a>
+			</div>
+			<div class="d-md-flex">
+				<div>
+					<img src="img/john-doe-300.jpg" alt="John Doe"
+						class="container rounded-circle w-75 d-block mx-auto mb-5">
+					<h4 class="text-center">John Doe</h4>
+					<h4 class="text-center text-info">Web Developer</h4>
+					<p class="text-center h5 px-3">Objectively innovate empowered manufactured products whereas parallel
+						platforms. Holistically predominates extensible testing procedures for reliable supply chains.
+						Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.</p>
+					<div class="bg-light text-center h6 mt-3">
+						<a href="#" class="text-success">Twitter</a>
+					</div>
+					<div class="bg-light text-center h6  mb-5">
+						<a href="#" class="text-success">GitHub</a>
+					</div>
+				</div>
+
+				<div>
+					<img src="img/bob-smith-300.jpg" alt="Bob Smith"
+						class="container rounded-circle w-75 d-block mx-auto mb-5">
+					<h4 class="text-center">Bob Smith</h4>
+					<h4 class="text-center text-info">Web Designer</h4>
+					<p class="text-center h5 px-3">Collaboratively administrate empowered markets via plug-and-play
+						networks.
+						Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize
+						customer
+						directed convergence without revolutionary ROI.</p>
+					<div class="bg-light text-center h6 mt-3">
+						<a href="#" class="text-success">Instagram</a>
+					</div>
+					<div class="bg-light text-center h6  mb-5">
+						<a href="#" class="text-success">GitHub</a>
+					</div>
+				</div>
+
+				<div>
+					<img src="img/jane-brown-300.jpg" alt="Jane Brown"
+						class="container rounded-circle w-75 d-block mx-auto mb-5">
+					<h4 class="text-center">Jane Brown</h4>
+					<h4 class="text-center text-info">Photographer</h4>
+					<p class="text-center h5 px-3">Completely synergize resource taxing relationships via premier niche
+						markets.
+						Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate
+						resource-leveling customer service for state-of-the-art customer service.</p>
+					<div class="bg-light text-center h6 mt-3">
+						<a href="#" class="text-success">LinkedIn</a>
+					</div>
+					<div class="bg-light text-center h6  mb-5">
+						<a href="#" class="text-success">Instagram</a>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<div class="pt-5" id="services">
+			<div class="text-center h3 mb-4">
+				<a href="#" class="text-success">OUR SERVICES</a>
+			</div>
+			<div class="px-2 w-25 d-flex w-100 flex-wrap">
+				<div class="w-50">
+					<div class="d-flex">
+						<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+							class="bi bi-eye" viewBox="0 0 16 16">
+							<path
+								d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+							<path
+								d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+						</svg>
+						<h4 class="ml-1">Retina Ready</h4>
+					</div>
+
+					<div>
+						<p class="h6">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione aliquid iusto adipisci
+							excepturi dolore necessitatibus? Deleniti sed optio earum cum corrupti id, sunt vitae, et
+							quia quas, obcaecati vero ratione.</p>
+					</div>
+				</div>
+
+				<div class="w-50">
+					<div class="d-flex">
+						<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+							class="bi bi-clock-history" viewBox="0 0 16 16">
+							<path
+								d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z" />
+							<path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
+							<path
+								d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+						</svg>
+						<h4 class="ml-1">Lightweight</h4>
+					</div>
+
+					<div>
+						<p class="h6">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione aliquid iusto adipisci
+							excepturi dolore necessitatibus? Deleniti sed optio earum cum corrupti id, sunt vitae,
+							et quia quas, obcaecati vero ratione.</p>
+					</div>
+				</div>
+
+				<div class="w-50">
+					<div class="d-flex">
+						<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+							class="bi bi-gear-wide" viewBox="0 0 16 16">
+							<path
+								d="M8.932.727c-.243-.97-1.62-.97-1.864 0l-.071.286a.96.96 0 0 1-1.622.434l-.205-.211c-.695-.719-1.888-.03-1.613.931l.08.284a.96.96 0 0 1-1.186 1.187l-.284-.081c-.96-.275-1.65.918-.931 1.613l.211.205a.96.96 0 0 1-.434 1.622l-.286.071c-.97.243-.97 1.62 0 1.864l.286.071a.96.96 0 0 1 .434 1.622l-.211.205c-.719.695-.03 1.888.931 1.613l.284-.08a.96.96 0 0 1 1.187 1.187l-.081.283c-.275.96.918 1.65 1.613.931l.205-.211a.96.96 0 0 1 1.622.434l.071.286c.243.97 1.62.97 1.864 0l.071-.286a.96.96 0 0 1 1.622-.434l.205.211c.695.719 1.888.03 1.613-.931l-.08-.284a.96.96 0 0 1 1.187-1.187l.283.081c.96.275 1.65-.918.931-1.613l-.211-.205a.96.96 0 0 1 .434-1.622l.286-.071c.97-.243.97-1.62 0-1.864l-.286-.071a.96.96 0 0 1-.434-1.622l.211-.205c.719-.695.03-1.888-.931-1.613l-.284.08a.96.96 0 0 1-1.187-1.186l.081-.284c.275-.96-.918-1.65-1.613-.931l-.205.211a.96.96 0 0 1-1.622-.434L8.932.727zM8 12.997a4.998 4.998 0 1 1 0-9.995 4.998 4.998 0 0 1 0 9.996z" />
+						</svg>
+						<h4 class="ml-1">Eco Friendly</h4>
+					</div>
+
+					<div>
+						<p class="h6">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione aliquid iusto
+							adipisci excepturi dolore necessitatibus? Deleniti sed optio earum cum corrupti id,
+							sunt vitae, et quia quas, obcaecati vero ratione.</p>
+					</div>
+				</div>
+
+				<div class="w-50">
+					<div class="d-flex">
+						<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+							class="bi bi-aspect-ratio" viewBox="0 0 16 16">
+							<path
+								d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z" />
+							<path
+								d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z" />
+						</svg>
+						<h4 class="ml-1">Responsive</h4>
+					</div>
+
+					<div>
+						<p class="h6">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione aliquid iusto
+							adipisci excepturi dolore necessitatibus? Deleniti sed optio earum cum corrupti
+							id, sunt vitae, et quia quas, obcaecati vero ratione.</p>
+					</div>
+				</div>
+			</div>
+			<div class="text-center py-5">
+				<button type="button" class="btn btn-secondary">Learn More</button>
+			</div>
+
+			<div class="bg-light pt-5 pb-5 px-2" id="price">
+				<div class="text-center h3 mb-4">
+					<a href="#" class="text-success">PRICING</a>
+				</div>
+				<p class="h6 text-center pb-2">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusamus incidunt ipsum sint maxime.
+					Laudantium dolore natus officiis voluptates! Provident voluptas ipsam reiciendis soluta accusamus!
+					Earum debitis nisi quia asperiores.
+				</p>
+				<div class="d-md-flex">
+					<div class="container p-0 border border-secondary rounded text-center bg-white mb-2 col-md-3">
+						<h3>Starter Plan</h3>
+						<p class="pb-3 h6">$7/mo</p>
+						<p class="h6">Basic customer support for small business</p>
+						<p class="h6">10 Project</p>
+						<p class="h6">20 Pages</p>
+						<p class="h6">20 Emails</p>
+						<p class="h6">100 Images</p>
+						<button type="button" class="btn btn-outline-success my-3">Get Started</button>
+					</div>
+	
+					<div class="container p-0 border border-success rounded text-center bg-white mb-2 col-md-3">
+						<p class="h6 text-muted py-2 border-bottom bg-light">Best Value</p>
+						<h3>Regular Plan</h3>
+						<p class="pb-3 h6">$19/mo</p>
+						<p class="h6">Basic customer support for small business</p>
+						<p class="h6">15 Project</p>
+						<p class="h6">40 Pages</p>
+						<p class="h6">40 Emails</p>
+						<p class="h6">200 Images</p>
+						<button type="button" class="btn btn-outline-success my-3">Get Started</button>
+					</div>
+	
+					<div class="container p-0 border border-secondary rounded text-center bg-white mb-2 col-md-3">
+						<h3>Regular Plan</h3>
+						<p class="pb-3 h6">$19/mo</p>
+						<p class="h6">Basic customer support for small business</p>
+						<p class="h6">15 Project</p>
+						<p class="h6">40 Pages</p>
+						<p class="h6">40 Emails</p>
+						<p class="h6">200 Images</p>
+						<button type="button" class="btn btn-outline-success my-3">Get Started</button>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="p-3 col-lg-8 container" id="contact">
+				<div class="text-center h3 mb-4 pt-5">
+					<a href="#" class="text-success">CONTACT US</a>
+				</div>
+
+				<form>
+					<div class="form-group">
+						<div>
+							<label for="name" class="h5 m-3">Name</label>
+							<input type="text" class="form-control" id="name">
+						</div>
+
+						<div>
+							<label for="email" class="h5 m-3">Email</label>
+							<input type="email" class="form-control" id="email">
+						</div>
+
+						<div>
+							<label for="message" class="h5 m-3">Message</label>
+							<textarea class="form-control" id="message" rows="3"></textarea>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<button type="button" class="btn btn-success container">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer class="bg-secondary p-2 p-md-4">
+		<p class="text-white h6">Copyright &copy; 2020</p>
+		<p class="text-white h6">For Educational Purposes Only</p>
+	</footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+		crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
